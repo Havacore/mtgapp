@@ -40,5 +40,5 @@ handlers:
   static_dir: application/static
 
 - url: /.*
-  static_files: static/index.html
+  static_files: application/templates/base.html
   upload: application/templates/base.html

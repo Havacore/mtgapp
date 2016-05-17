@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46729eb5-e357-433a-8a95-5d9d62fc72fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/urls.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/admin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/admin/admin_delete_example.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/admin/admin_edit_example.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/admin/admin_list_examples.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/admin/admin_list_examples_cached.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/admin/admin_secret.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/public/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/public/public_index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/public/public_say_hello.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/application/views/public/public_warmup.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/__init__.py" afterPath="$PROJECT_DIR$/src/app/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/decorators.py" afterPath="$PROJECT_DIR$/src/app/decorators.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/forms.py" afterPath="$PROJECT_DIR$/src/app/forms.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/generate_keys.py" afterPath="$PROJECT_DIR$/src/app/generate_keys.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/models.py" afterPath="$PROJECT_DIR$/src/app/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/settings.py" afterPath="$PROJECT_DIR$/src/app/settings.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/static/css/main.css" afterPath="$PROJECT_DIR$/src/app/static/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/static/img/favicon.ico" afterPath="$PROJECT_DIR$/src/app/static/img/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/static/img/favicon.png" afterPath="$PROJECT_DIR$/src/app/static/img/favicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/static/js/main.js" afterPath="$PROJECT_DIR$/src/app/static/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/static/robots.txt" afterPath="$PROJECT_DIR$/src/app/static/robots.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/templates/404.html" afterPath="$PROJECT_DIR$/src/app/templates/404.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/templates/500.html" afterPath="$PROJECT_DIR$/src/app/templates/500.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/templates/base.html" afterPath="$PROJECT_DIR$/src/app/templates/base.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/templates/includes/flash_message.html" afterPath="$PROJECT_DIR$/src/app/templates/includes/flash_message.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/application/templates/includes/nav.html" afterPath="$PROJECT_DIR$/src/app/templates/includes/nav.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.yaml" afterPath="$PROJECT_DIR$/src/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/run.py" afterPath="$PROJECT_DIR$/src/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/tests.py" afterPath="$PROJECT_DIR$/src/tests/tests.py" />
     </list>
     <ignored path="mtgproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +57,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/__init__.py">
+        <entry file="file://$PROJECT_DIR$/src/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -36,7 +67,7 @@
         </entry>
       </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/src/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -45,21 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_edit_example.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/views/admin/admin_edit_example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/urls.py">
+        <entry file="file://$PROJECT_DIR$/src/app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding>
                 <element signature="e#65#98#0" expanded="true" />
               </folding>
@@ -80,18 +101,8 @@
       <file leaf-file-name="app.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public_index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/views/public/public_index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="453">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -105,9 +116,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/application/urls.py" />
         <option value="$PROJECT_DIR$/src/application/views/public/public_index.py" />
         <option value="$PROJECT_DIR$/src/application/templates/base.html" />
+        <option value="$PROJECT_DIR$/src/application/urls.py" />
         <option value="$PROJECT_DIR$/src/app.yaml" />
       </list>
     </option>
@@ -212,29 +223,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtgproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtgproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,6 +239,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.appengine.AppEngineModulesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -486,6 +476,14 @@
       <option name="presentableId" value="Default" />
       <updated>1463521803890</updated>
     </task>
+    <task id="LOCAL-00001" summary="got it rendering my main template">
+      <created>1463523195144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463523195144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,6 +513,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="got it rendering my main template" />
+    <option name="LAST_COMMIT_MESSAGE" value="got it rendering my main template" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -530,18 +532,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/views/admin/admin_edit_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -562,21 +556,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/settings.py">
+    <entry file="file://$PROJECT_DIR$/src/app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#65#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,7 +572,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/src/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -596,10 +580,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#65#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/views/admin/admin_edit_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="453">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding />
         </state>
       </provider>

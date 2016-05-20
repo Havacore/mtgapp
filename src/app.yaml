@@ -37,8 +37,14 @@ handlers:
   script: lib.gae_mini_profiler.main.application
 
 - url: /static
-  static_dir: app/static
+  static_dir: static
+
+- url: /node_modules
+  static_dir: ../node_modules
+
+- url: /app
+  static_dir: static/app
 
 - url: /.*
-  static_files: static/templates/base.html
-  upload: static/templates/base.html
+  static_files: ./templates/index.html
+  upload: ./templates/index.html

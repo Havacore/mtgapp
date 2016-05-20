@@ -1,10 +1,13 @@
-{
+{ 
+  "filesGlob": [
+    "src/static/app/**/*.ts"
+  ],
   "compilerOptions": {
     "removeComments": false,
     "sourceMap": true,
     "target": "es5",
     "experimentalDecorators": true,
-    "module": "commonjs",
+    "module": "system",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "suppressImplicitAnyIndexErrors": true
@@ -24,7 +27,7 @@
   },
   "files": [
     "typings/browser.d.ts",
-    "client/bootstrap.ts",
-    "src/app.ts",
+    "src/static/app/app.ts",
+    "src/static/app/main.ts"
   ]
 }

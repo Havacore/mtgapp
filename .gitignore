@@ -1,2 +1,9 @@
 # Keep secret keys out of version control
 secret_keys.py
+src/static/app/*.js
+src/static/app/*.map
+*.DS_Store
+node_modules
+typings
+vcs.xml
+.idea/jsLibraryMappings.xml

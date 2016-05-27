@@ -1,0 +1,12 @@
+<md-sidenav-layout>
+    <md-sidenav #start>
+        Sidenav
+        <br>
+        <button #somebutton (click)="start.close()">Close</button>
+    </md-sidenav>
+    <md-sidenav #end align="end">
+        End Sidenav
+    </md-sidenav>
+    <button (click)="start.open()"></button>
+    Content!!!!
+</md-sidenav-layout>
